@@ -1,9 +1,11 @@
+### Component-Wise Code Owners & Reviewers
+
 Area             |Components                       |Source                                           |Maintainers                                 |Reviewers|
 -----------------|---------------------------------|-------------------------------------------------|--------------------------------------------|-------- |
 control-plane    |chaos-manager                    |graphql-server                                   |@amityt, @Jonsy13, @rajdas98                 |@gdsoumya, @Saranya-jena, @SarthakJain26|
 control-plane    |chaos-dashboard                  |frontend, component-library                       |@arkajyotiMukherjee, @S-ayanide            |@amityt, @SahilKr24, @hrishavjha|
 execution-plane  |subscriber, event-tracker        |cluster-agents                                   |@gdsoumya, @rajdas98, @SarthakJain26         |@amityt, @Jonsy13, @ispeakc0de, @Adarshkumar14         |
-execution-plane  |litmus-core                      |chaos-operator, chaos-runner, elves, chaos-exporter |@ksatchit, @ispeakc0de                   |@uditgaurav, @neelanjan          |   
+execution-plane  |litmus-core                      |chaos-operator, chaos-runner, elves, chaos-exporter |@ksatchit, @ispeakc0de, @chandankumar4                  |@uditgaurav, @neelanjan          |   
 chaos-experiments|experiment-lib, chaoshub         |litmus-go, test-tools, chaos-charts              |@uditgaurav, @ispeakc0de, @ksatchit, @Vr00mm| @neelanjan00, @Adarshkumar14, @avaakash     |
 chaos-plugins    |cli, plugin infra                |litmusctl                                        |@Saranya-jena, @SarthakJain26               |@Jonsy13, @ajeshbaby, @rajdas98         | 
 chaos-sdk        |go/pythion/anisble sdk           |litmus-go,litmus-python,litmus-ansible           |@oumkale, @ispeakc0de, @ksatchit            |@neelanjan00, @avaakash, @uditgaurav         | 
@@ -13,3 +15,46 @@ helm-charts      |control-plane, agent, experiments|litmus-helm                 
 documentation    |platform-docs, experiment-docs   |litmus-docs, mkdocs                              |@neelanjan00, @umamukkara, @ispeakc0de     |@ksatchit, @ajeshbaby, @amityt, @uditgaurav         |
 websites         |project website, chaoshub, documentation  |litmus-website, charthub, litmus-docs   |@umamukkara, @arkajyotiMukherjee, @S-ayanide    |@SahilKr24, @hrishavjha, @ajeshbaby        |
 
+### Consolidated Maintainers List 
+
+```
+"Amit Kumar Das",@amityt,amit.das@harness.io
+"Arkojyoti Mukherjee",@arkajyotiMukherjee,arko@harness.io
+"Chandan Kumar",@chandankumar4,chandan.kumar@zopsmart.com
+"Karthik Satchitanand",@ksatchit,karthik.s@harness.io
+"Maria Kotlyarevskaya",@Jasstkn,jasssstkn@yahoo.com
+"Oum Nivrati Kale",@oumkale,imkaleoum@gmail.com
+"Raj Das",@rajdas98,raj.das@harness.io
+"Rémi Ziolkowski",@Vr00mm,remi.ziolkowski-ext@pole-emploi.fr
+"Soumya Ghosh Dastidar",@gdsoumya,gdsoumya@gmail.com
+"Saranya Jena",@Saranya-jena,saranya.jena@harness.io
+"Sarthak Jain",@SarthakJain26,sarthak.jain@harness.io
+"Sayan Mondal",@S-ayanide,sayan.mondal@harness.io
+"Shubham Chaudhary",@ispeakc0de,shubham.chaudhary@harness.io
+"Udit Gaurav",@uditgaurav,udit.gaurav@harness.io
+"Vedant Shrotria",@Jonsy13,vedant.shrotria@harness.io
+"Uma Mukkara",@umamukkara,umasankar.mukkara@harness.io
+```
+
+### Consolidated Reviewers List
+
+```
+"Ajesh Baby",@ajeshbaby,ajesh.baby@harness.io
+"Sahil Kumar",@SahilKr24,sahil.kumar@harness.io
+"Hrishav Kumar Jha",@hrishavjha,hrishav.kumar@harness.io
+```
+
+### Emeritus Maintainers
+
+```
+"Jayesh Kumar",@k8s-dev,tankjaye@amazon.com,Amazon
+"Sumit Nagal",@sumitnagal,snagal@salesforce.com,Salesforce
+```
+
+### Emeritus Reviewers
+
+```
+"Amit Bhatt",@amitbhatt818,amit.bhatt@mayadata.io,MayaData
+"Ishan Gupta",@ishangupta-ds,ishan@chaosnative.com,ChaosNative
+"Rahul M Chheda",@rahulchheda,rahul.chheda1997@gmail.com,Independent
+```
