@@ -1,4 +1,4 @@
-### Component-Wise Code Owners & Reviewers
+### Component-Wise Code Owners & Primary Reviewers
 
 Area             |Components                       |Source                                           |Maintainers                                 |Reviewers|
 -----------------|---------------------------------|-------------------------------------------------|--------------------------------------------|-------- |
