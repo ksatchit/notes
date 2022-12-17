@@ -2,7 +2,7 @@
 
 Area             |Components                       |Source                                           |Maintainers                                 |Reviewers|
 -----------------|---------------------------------|-------------------------------------------------|--------------------------------------------|-------- |
-control-plane    |chaos-manager                    |graphql-server                                   |@amityt, @Jonsy13, @rajdas98                 |@gdsoumya, @Saranya-jena, @SarthakJain26|
+control-plane    |chaos-manager                    |graphql-server                                   |@amityt, @Jonsy13, @rajdas98, @SarthakJain26                 |@gdsoumya, @Saranya-jena, @arkajyotiMukherjee|
 control-plane    |chaos-dashboard                  |frontend, component-library                       |@arkajyotiMukherjee, @S-ayanide            |@amityt, @SahilKr24, @hrishavjha|
 execution-plane  |subscriber, event-tracker        |cluster-agents                                   |@gdsoumya, @rajdas98, @SarthakJain26         |@amityt, @Jonsy13, @ispeakc0de, @Adarshkumar14         |
 execution-plane  |litmus-core                      |chaos-operator, chaos-runner, elves, chaos-exporter |@ksatchit, @ispeakc0de, @chandankumar4                  |@uditgaurav, @neelanjan          |   
