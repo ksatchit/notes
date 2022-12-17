@@ -40,6 +40,7 @@ websites         |project website, chaoshub, documentation  |litmus-website, cha
 
 ```
 "Adarsh Kumar",@Adarshkumar14,adarsh.kumar@harness.io
+"Akash Srivastava",@avaakash,akash.srivastava@harness.io
 "Ajesh Baby",@ajeshbaby,ajesh.baby@harness.io
 "Sahil Kumar",@SahilKr24,sahil.kumar@harness.io
 "Hrishav Kumar Jha",@hrishavjha,hrishav.kumar@harness.io
